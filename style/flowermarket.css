@@ -17,6 +17,9 @@ body{
 .black{
     color: #252432;
 }
+.text-orange{
+    color: #E95A08;
+}
 .header-section{
     margin-top: 30px;
 }
@@ -44,4 +47,15 @@ body{
 .nav-link{
     text-decoration: none;
 
+}
+.banner{
+    margin-top: 114px;
+}
+.banner-title{
+  font-weight: 700px;
+  font-size: 4rem;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
 }
