@@ -125,13 +125,88 @@ body{
     font-size: 1.375rem;
    
 }
-.flower-description li{
+
     
-    
-}
+
 .bages{
     position: absolute;
    
 }
 
-/*  */
+/* dicount section style */
+.deal{
+    margin-top: 134px;
+}
+.discount{
+    justify-items: center;
+}
+.deals{
+    font-weight: 700;
+    font-size: 3.125rem;
+}
+.container {
+      display: flex;
+      gap: 20px;
+      max-width: 1140px;
+      margin-top: 119px;
+    }
+
+    .left-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 1;
+    }
+
+    .right-card {
+      flex: 2;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .discount-card {
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      color: white;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .discount-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+ .buy-section{
+    color: #FFFFFF;
+ }
+    .buy-sections{
+        font-weight: 600;
+        font-size: 1.75rem;
+    }
+
+    .right-card h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .right-card span {
+      font-size: 18px;
+      background: #000000a0;
+      padding: 8px 16px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
