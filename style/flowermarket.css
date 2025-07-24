@@ -8,8 +8,8 @@
     "wdth" 100;
 }
 body{
-    margin-left: 150px;
-    margin-right: 150px;
+    max-width: 1140px;
+    margin: 30px auto;
 }
 .light-blue{
     color: #8987A1;
@@ -21,7 +21,11 @@ body{
     color: #E95A08;
 }
 .header-section{
+    
     margin-top: 30px;
+}
+.text-gray{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .display-flex{
@@ -56,6 +60,48 @@ body{
   font-size: 4rem;
 }
 .banner-description{
-    color: rgba(0, 0, 0, 0.5);
+    
     font-size: 1.4rem;
+}
+.item{
+    margin-top: 115px;
+    justify-items: center;
+}
+.item-title{
+    font-weight: 700px;
+    font-size: 3.125rem;
+
+}
+.item-content{
+    font-size: 1.4rem;
+}
+.card{
+    width: 270px;
+    height: 485px;
+}
+.card-details{
+    text-align: center;
+}
+.card-title{
+    font-weight: 500;
+}
+.prize{
+    font-weight: 700;
+}
+.btn-primary{
+    border: none;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    width: 270px;
+    height: 50px;
+}
+.cards{
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
