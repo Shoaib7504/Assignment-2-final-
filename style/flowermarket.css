@@ -129,9 +129,16 @@ body{
 
     
 
-.bages{
-    position: absolute;
-   
+.box{
+  max-width: 286px;
+  max-height: 286;
+position: absolute;
+width: 286px;
+height: 286px;
+left: 497px;
+top: 2072px;
+box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
+background-image: url('../assets/trusted-badge.png');
 }
 
 /* dicount section style */
@@ -145,7 +152,7 @@ body{
     font-weight: 700;
     font-size: 3.125rem;
 }
-.container {
+.containers {
       display: flex;
       gap: 20px;
       max-width: 1140px;
@@ -212,24 +219,32 @@ body{
       margin-top: 10px;
     }
     /* join section style */
-.join-section {
+ .join-section {
+  margin: 120px auto ;
   width: 1440px;
-  margin: 110px auto;
   height: 533px;
-  align-items: center;
   justify-items: center;
-}
-
-
-.container h1 {
-  font-size: 3.125rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ }
+ .join-title{
+  font-weight: 700;
+  font-size: 3.127rem;
   color: #FFFFFF;
-}
-
-.from-section{
-    width: 644px;
-    height: 50px;
-}
+ }
+ .button{
+  height: 50px;
+  width: 186px;
+  background-color: #E95A08;
+  color: #FFFFFF;
+  border: none;
+ }
+ .join-form{
+  
+  width: 644px;
+  height: 50px;
+ }
 
 .footer {
   background-color: #f9fafb;
@@ -270,7 +285,8 @@ body{
 }
 
 .footer-links a {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 10px;
   text-decoration: none;
   color: #555;
@@ -287,4 +303,68 @@ body{
   gap: 20px;
 }
 
+@media screen and (max-width: 576px)  {
+ .banner{
+  width: 393px;
+  
+  display: flex;
+  flex-direction: column-reverse;
+  margin: auto 16px;
+ }
+ .cards{
+  justify-content: center;
+  text-align: center;
+  margin: auto 16px;
+ 
+ display: grid;
+ grid-template-columns: repeat(2 ,1fr);
+}
+.flower-review{
+  display: flex;
+  flex-direction: column;
+}
+.deal{
+  justify-content: center;
+  text-align: center;
+  margin: auto 16px;
+}
+.containers{
+  margin: auto 16px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.join-section {
+  width: 393px;
+  height: 276px;
+  
+}
+.join-title{
+  font-size: 20px;
 
+}
+.join-form{
+  width: 218px;
+  height: 50px;
+}
+.button{
+  width: 103px;
+  height: 50px;
+  justify-items: center;
+  padding: 0 auto;
+}
+footer{
+  margin: auto 16px;
+  justify-content: start;
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+}
+.footer-links{
+  
+  display: flex;
+  
+  flex-direction: column;
+}
+}
